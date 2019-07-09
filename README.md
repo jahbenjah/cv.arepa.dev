@@ -6,11 +6,47 @@ Con este proyecto aprenderemos a crear un portafolio o curriculum vitae.
 
 Aprenderemos:
 
-1) Configurar un proyecto
+1) Configurar un proyecto.
+
+```
+git clone https://github.com/jahbenjah/cv.git
+```
+```
+md public 
+md src
+md src\components
+md src\container
+
+├───public
+└───src
+    ├───components
+    ├───container
+```
+
+```
+npm init -y
+```
+
 2) Instalar React
+
+```
+npm install react react-dom --save-dev
+```
+
 3) Crear un Hola Mundo en React
+
+
+
 4) Instalar y configurar Babel
+```
+npm install @babel/core @babel/preset-env @babel/preset-react babel-loader --save
+npm install babel-plugin-transform-class-properties --save-dev
+
+```
 5) Instalar y configurar Webpack
+```
+npm install
+```
 6) Crear un servidor de desarrollo local
 7) Estructura del proyecto 
 8) React Hooks - useState()
